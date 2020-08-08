@@ -5,8 +5,8 @@
       <section class="md:flex my-4 flex-wrap">
         <div class="md:w-1/2  md:block">
           <h2 class="text-yellow-500 text-xl font-semibold leading-normal "> Basic Services </h2>
-          <h1 class="text-4xl font-bold leading-normal "> We do all your <span class="text-pri">basic shit </span> and let you to be productive</h1>
-          <p class="my-4 font-light "> Get your stuff done in very short time with no money. Reliable and fast service.</p>
+          <h1 class="text-4xl font-bold leading-normal "> We do all your <span class="text-pri">basic chores </span> and let you to be productive</h1>
+          <p class="my-4 font-light "> Get your stuff done in very short time with just $3/hr. Reliable and fast service.</p>
 
           <div>
             <g-image class="call-us" src="../assets/images/phone-call.svg" alt="Customer care" />
@@ -52,20 +52,20 @@
           </div>
         </div> 
 
-        <div class="md:flex lg:flex  justify-center  md:text-center">
-          <div class="md:w-1/3 my-2 lg:w-1/3 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3  px-3">
-          <g-image class="object-cover w-8 md:m-auto h-8 " src="~/assets/images/tap.svg" />
+        <div class="md:flex lg:flex  justify-center mx-4  md:text-center">
+          <div class="md:w-1/3 my-2 lg:w-1/3 mx-4 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3 px-2">
+              <g-image class="object-cover w-8 md:m-auto h-8 " src="~/assets/images/tap.svg" />
               <h2 class="text-bold text-xl"> Choose your Server </h2>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, provident. </p>
           </div>
 
-          <div class="md:w-1/3 my-2 lg:w-1/3 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3  px-3">
+          <div class="md:w-1/3 my-2 lg:w-1/3 mx-4 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3  px-3">
               <g-image class="object-cover w-8 m-auto h-8" src="~/assets/images/payment.svg" />
               <h2 class="text-bold text-xl" > Pay and confirm </h2>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, provident. </p>
           </div>
 
-          <div class="md:w-1/3 my-2 lg:w-1/3 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3  px-3">
+          <div class="md:w-1/3 my-2 lg:w-1/3 mx-4 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3  px-3">
               <g-image class="object-cover w-8 m-auto h-8" src="~/assets/images/review.svg" />
               <h2 class="text-bold text-xl"> Send a review </h2>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, provident. </p>
@@ -87,6 +87,12 @@
         </div>
       </section>
 
+      <!-- Contact -->
+
+      <section class="mt-32"> 
+       
+        <ContactForm />
+      </section>
 
       
     </div>
@@ -99,12 +105,16 @@
 
 <script>
 import ServiceCard from '~/components/ServiceCard.vue';
+import ContactForm from '~/components/ContactForm.vue';
+
 export default {
   metaInfo: {
     title: 'Serve Me'
   },
   components: {
-    ServiceCard
+    ServiceCard,
+    ContactForm,
+   
   },
   data () {
     return {
@@ -151,7 +161,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 
  a:link{
    color: #0E5849;
@@ -161,6 +171,9 @@ export default {
      color: #0E5849;
   }
 
+  .bg-primary{
+     background-color: #0E5849;
+  }
   hr{
     flex-basis: 30%;
     margin-top: 2em;
