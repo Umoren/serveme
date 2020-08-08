@@ -3,9 +3,9 @@
         <div class="w-16 h-16 grid content-center m-auto">
             <g-image class="w-full object-cover" :src="service.imgUrl" :alt="service.imgAlt" />
         </div>
-        <div class="px-6 py-4 text-center">
+        <div class="px-6 py-4 text-left md:text-center">
             <div class="font-bold text-xl mb-2">
-                <h2>{{service.title}}</h2>
+                <h2 class="text-center">{{service.title}}</h2>
             </div>
             <p class="text-gray-700 text-base">
                 {{service.description}}

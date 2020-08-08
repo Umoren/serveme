@@ -1,15 +1,15 @@
 <template>
-     <form class="w-full py-8 px-12 bg-green-100 rounded-lg bg-opacity-50">
+     <form class="w-full py-8 px-4 md:px-12 bg-green-100 rounded-lg bg-opacity-50">
         <h2 class="font-extrabold text-2xl"> Join our waiting list </h2>
         
         <div class="md:flex my-6">
             <div class="md:w-1/2 ">
                 <div class="my-4">
-                    <input class="appearance-none border rounded md:w-3/4 sm:w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Name">
+                    <input class="appearance-none border rounded md:w-3/4 w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Name">
                 </div>
 
                 <div class="my-4">
-                    <input class="appearance-none border rounded md:w-3/4 sm:w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="myemail@email.com">
+                    <input class="appearance-none border rounded md:w-3/4 w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="myemail@email.com">
                 </div>
 
                 <div class="my-4">
@@ -25,15 +25,15 @@
                 </div>
 
                 <div class="my-4">
-                    <textarea name="" class="appearance-none border rounded lg:1/2 md:w-3/4 w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Message"></textarea>
+                    <textarea name="" class="appearance-none border rounded lg:1/2 md:w-3/4 w-full py-4 px-3 bg-white bg-opacity-50 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  placeholder="Message"></textarea>
                 </div>
 
-                <div>
-                    <button type="submit" class="bg-primary hover:bg-primary  text-white shadow-inner bg-opacity-50 font-bold py-2 px-6 rounded"> Send </button>
+                <div class="md:w-1/2">
+                    <button type="submit" class="w-full  bg-primary hover:bg-primary  text-white shadow-inner bg-opacity-50 font-bold py-2 px-6 rounded"> Send </button>
                 </div>
             </div>
 
-            <div class="md:w-1/2">
+            <div class="hidden md:block md:w-1/2">
                 <div class="md:w-auto "> 
                     <g-image class="m-auto shadow-lg object-cover b-rad1" src="~/assets/images/clean.jpg" alt="Cleaning" />
                 </div>

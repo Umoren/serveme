@@ -6,7 +6,7 @@
     
      
     <slot/>
-    <Footer />
+    <Footer  />
   </div>
 </template>
 

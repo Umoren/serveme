@@ -28,7 +28,7 @@
   
       <section class="mb-16">
         <div class="text-center">
-            <h1 class="text-4xl font-bold leading-normal "> How it works</h1>
+            <h1 class="text-2xl md:text-4xl font-bold leading-normal "> How it works</h1>
         </div>
 
         <div class="flex justify-center my-8">
@@ -54,7 +54,7 @@
 
         <div class="md:flex lg:flex  justify-center mx-4  md:text-center">
           <div class="md:w-1/3 my-2 lg:w-1/3 mx-4 sm:w-auto overflow-hidden shadow-sm bg-yellow-100 bg-opacity-25 rounded-lg py-3 px-2">
-              <g-image class="object-cover w-8 md:m-auto h-8 " src="~/assets/images/tap.svg" />
+              <g-image class="object-cover w-8 m-auto h-8 " src="~/assets/images/tap.svg" />
               <h2 class="text-bold text-xl"> Choose your Server </h2>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, provident. </p>
           </div>
@@ -76,7 +76,7 @@
       
       <section class="mt-32">
         <div class="md:w-2/3 sm:w-auto ">
-            <h1 class="text-4xl font-bold leading-normal "> Here are the things we can do for you</h1>
+            <h1 class="text-2xl md:text-4xl font-bold leading-normal "> Here are the things we can do for you</h1>
         </div>
 
         <div class="md:flex flex-wrap my-4 -mx-4">

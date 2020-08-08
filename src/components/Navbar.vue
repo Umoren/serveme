@@ -15,9 +15,9 @@
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 align-center sm:flex sm:p-0 w-1/2 justify-around">
      <div class="sm:flex align-center">
-        <a href="#" class="block px-2 py-1 navitem__color font-semibold rounded  ">List your property</a>
-        <a href="#" class="mt-1 block px-2 py-1 navitem__color font-semibold rounded   sm:mt-0 sm:ml-2">Trips</a>
-        <a href="#" class="mt-1 block px-2 py-1 navitem__color font-semibold rounded   sm:mt-0 sm:ml-2">Messages</a>
+        <a href="#" class="block px-2 py-1 navitem__color font-semibold rounded  ">Services</a>
+        <a href="#" class="mt-1 block px-2 py-1 navitem__color font-semibold rounded   sm:mt-0 sm:ml-2">Servers</a>
+        <a href="#" class="mt-1 block px-2 py-1 navitem__color font-semibold rounded   sm:mt-0 sm:ml-2">Contact </a>
      </div>
 
      <div class="flex">

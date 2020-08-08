@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto px-4 ">
-        <ul class="flex flex-wrap w-2/3 justify-between">
+        <ul class="md:flex md:flex-wrap md:flex-row md:w-2/3 md:justify-between flex-col m-auto text-center">
             <h3 class="font-bold text-2xl text-black"> <span id="override-color">S</span>erve Me </h3>
             <li><a class="mt-1 block px-2 py-1 navitem__color text-sm font-semibold rounded text-xl  sm:mt-0 sm:ml-2"> Home </a></li>
             <li><a class="mt-1 block px-2 py-1 navitem__color text-sm font-semibold rounded text-xl  sm:mt-0 sm:ml-2"> Services </a></li>
